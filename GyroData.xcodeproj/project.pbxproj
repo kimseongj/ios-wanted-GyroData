@@ -7,30 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4C1C072A38C6A0001C0788 /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C1C062A38C6A0001C0788 /* MeasureViewController.swift */; };
+		1C4C1C0A2A39AE47001C0788 /* IdentifierType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4C1C092A39AE47001C0788 /* IdentifierType.swift */; };
 		1CA3E5F92A38821400FFEA9D /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3E5F82A38821400FFEA9D /* ListViewController.swift */; };
 		1CA3E5FB2A38832500FFEA9D /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3E5FA2A38832500FFEA9D /* ListViewModel.swift */; };
 		1CA3E5FD2A38833000FFEA9D /* MeasureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3E5FC2A38833000FFEA9D /* MeasureViewModel.swift */; };
 		1CA3E5FF2A38834000FFEA9D /* ReplayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3E5FE2A38834000FFEA9D /* ReplayViewModel.swift */; };
 		1CA3E6012A38837100FFEA9D /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3E6002A38837100FFEA9D /* Motion.swift */; };
 		1CCD4A662A38B67D00A21193 /* ReplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCD4A652A38B67D00A21193 /* ReplayViewController.swift */; };
+		1CCD4A682A38C28C00A21193 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCD4A672A38C28C00A21193 /* ListCell.swift */; };
 		63F01BB528D44FC400C53A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F01BB428D44FC400C53A39 /* AppDelegate.swift */; };
 		63F01BB728D44FC400C53A39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F01BB628D44FC400C53A39 /* SceneDelegate.swift */; };
-		63F01BB928D44FC400C53A39 /* MeasureViewController in Sources */ = {isa = PBXBuildFile; fileRef = 63F01BB828D44FC400C53A39 /* MeasureViewController */; };
 		63F01BBE28D44FC500C53A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63F01BBD28D44FC500C53A39 /* Assets.xcassets */; };
 		63F01BC128D44FC500C53A39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F01BBF28D44FC500C53A39 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C4C1C062A38C6A0001C0788 /* MeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
+		1C4C1C092A39AE47001C0788 /* IdentifierType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifierType.swift; sourceTree = "<group>"; };
 		1CA3E5F82A38821400FFEA9D /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		1CA3E5FA2A38832500FFEA9D /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		1CA3E5FC2A38833000FFEA9D /* MeasureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewModel.swift; sourceTree = "<group>"; };
 		1CA3E5FE2A38834000FFEA9D /* ReplayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayViewModel.swift; sourceTree = "<group>"; };
 		1CA3E6002A38837100FFEA9D /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
 		1CCD4A652A38B67D00A21193 /* ReplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayViewController.swift; sourceTree = "<group>"; };
+		1CCD4A672A38C28C00A21193 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		63F01BB128D44FC400C53A39 /* GyroData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F01BB428D44FC400C53A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63F01BB628D44FC400C53A39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63F01BB828D44FC400C53A39 /* MeasureViewController */ = {isa = PBXFileReference; lastKnownFileType = text; path = MeasureViewController; sourceTree = "<group>"; };
 		63F01BBD28D44FC500C53A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63F01BC028D44FC500C53A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63F01BC228D44FC500C53A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4C1C082A39AE33001C0788 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1C4C1C092A39AE47001C0788 /* IdentifierType.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		1CA3E5ED2A387FA000FFEA9D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +72,7 @@
 		1CA3E5EE2A387FA800FFEA9D /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1C4C1C082A39AE33001C0788 /* Protocol */,
 				1CA3E5F32A38800500FFEA9D /* Model */,
 				1CA3E5F42A38800C00FFEA9D /* ViewModel */,
 				1CA3E5F22A387FFC00FFEA9D /* View */,
@@ -109,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				1CA3E5F82A38821400FFEA9D /* ListViewController.swift */,
+				1CCD4A672A38C28C00A21193 /* ListCell.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -116,7 +130,7 @@
 		1CA3E5F62A3880A700FFEA9D /* Measure */ = {
 			isa = PBXGroup;
 			children = (
-				63F01BB828D44FC400C53A39 /* MeasureViewController */,
+				1C4C1C062A38C6A0001C0788 /* MeasureViewController.swift */,
 			);
 			path = Measure;
 			sourceTree = "<group>";
@@ -226,12 +240,14 @@
 			files = (
 				1CA3E5FB2A38832500FFEA9D /* ListViewModel.swift in Sources */,
 				1CCD4A662A38B67D00A21193 /* ReplayViewController.swift in Sources */,
-				63F01BB928D44FC400C53A39 /* MeasureViewController in Sources */,
+				1CCD4A682A38C28C00A21193 /* ListCell.swift in Sources */,
 				63F01BB528D44FC400C53A39 /* AppDelegate.swift in Sources */,
 				1CA3E5FF2A38834000FFEA9D /* ReplayViewModel.swift in Sources */,
 				1CA3E5F92A38821400FFEA9D /* ListViewController.swift in Sources */,
+				1C4C1C0A2A39AE47001C0788 /* IdentifierType.swift in Sources */,
 				1CA3E6012A38837100FFEA9D /* Motion.swift in Sources */,
 				63F01BB728D44FC400C53A39 /* SceneDelegate.swift in Sources */,
+				1C4C1C072A38C6A0001C0788 /* MeasureViewController.swift in Sources */,
 				1CA3E5FD2A38833000FFEA9D /* MeasureViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

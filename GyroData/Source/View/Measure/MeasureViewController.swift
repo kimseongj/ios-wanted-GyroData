@@ -6,10 +6,10 @@
 //
 
 import UIKit
-
+import CoreMotion
 
 class MeasureViewController: UIViewController {
-    
+    var manager = CMMotionManager()
 
     private lazy var segmentedControl: UISegmentedControl = {
         let control = UISegmentedControl(items: ["Acc", "Gyro"])
@@ -68,7 +68,7 @@ class MeasureViewController: UIViewController {
     }
     
     private func configureSegmentedControl() {
-        segmentedControl.selectedSegmentIndex = 0
+            segmentedControl.selectedSegmentIndex = 0
         changeValue()
     }
     
@@ -86,5 +86,19 @@ class MeasureViewController: UIViewController {
     private func presentGyroGraphView() {
         accelerometerGraphView.isHidden = true
         gyroGraphView.isHidden = false
+    }
+    
+    private func measureAccelerometer() {
+        manager.accelerometerUpdateInterval = 0.1
+        
+        manager.startAccelerometerUpdates(to: .main) { (data, error) in
+        }
+    }
+    
+    private func measureGyro() {
+        manager.gyroUpdateInterval = 0.1
+        
+        manager.startGyroUpdates(to: .main) { (data, error) in
+        }
     }
 }
